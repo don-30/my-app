@@ -1,41 +1,25 @@
 .App {
   text-align: center;
-  max-width: 400px;
-  margin: auto;
-  padding: 20px;
+  margin: 20px;
   font-family: Arial, sans-serif;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
+h1 {
+  color: #4a0072;
 }
 
-div {
-  margin-bottom: 10px;
+h2 {
+  color: #6a1b9a;
 }
 
-label {
-  display: block;
-  font-weight: bold;
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-input {
-  padding: 8px;
-  font-size: 16px;
-  width: 100%;
-  box-sizing: border-box;
+li {
+  margin: 10px 0;
+  font-size: 1.2em;
 }
 
-button {
-  padding: 10px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #45a049;
-}
 
