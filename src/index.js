@@ -1,1 +1,15 @@
-console.log('Hello World');
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css'; // Ensure this CSS file exists
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+// Optional: reportWebVitals can be removed if not needed
+reportWebVitals();
